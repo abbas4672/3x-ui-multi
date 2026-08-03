@@ -1,9 +1,9 @@
-{
+Tu{
   "_comment": "Central configuration for X-UI + Tor multi-country gateway. Every script (start.sh, panel-bootstrap.sh) reads this file via `jq` — edit here, not in the scripts.",
 
   "api": {
     "_comment": "Optional external IP/country lookup API (Cloudflare Worker). Used only as an EXTRA verification source; the built-in providers in get_country_from_ip() are tried first because they are faster and more reliable.",
-    "base_url": "",
+    "base_url": "https://square-darkness-fffe.abbasahmadi953493.workers.dev",
     "endpoints": {
       "tor_check": "/tor-check",
       "lookup": "/lookup",
