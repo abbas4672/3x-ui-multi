@@ -4,7 +4,7 @@ const CONFIG = {
     MAX_IPS_PER_REQUEST: 200,
     CACHE_TTL: 300,
     EXIT_ADDRESSES_URL: 'https://check.torproject.org/exit-addresses',
-    ONIONOO_API_URL: 'https://onionoo.torproject.org/details?search=flag:exit',
+    ONIONOO_API_URL: 'https://dawn-base-3c08.abbasahmadi953493.workers.dev',
     IP_API_URL: 'http://ip-api.com/json/',
     IP_API_BATCH_URL: 'http://ip-api.com/batch',
     IPWHOIS_URL: 'https://ipwhois.app/json/',
